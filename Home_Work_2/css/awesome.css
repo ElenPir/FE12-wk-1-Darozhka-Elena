@@ -16,14 +16,9 @@
   color: grey;
 }
 
-.awesome_item{
-  text-align: center;
-}
-
 .item1 {
   max-width: 300px;  /*ширина item*/
   display: inline-block;
-  text-align: center;
   margin: 20px auto;
   padding: 10px;
 }

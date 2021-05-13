@@ -1,21 +1,15 @@
 @import url("../css/awesome.css");
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
 .section{
-padding-top: 80px;
-padding-bottom: 80px;
-}
-
-.container{
 padding: 0; 15px;
 max-width: 1170px;
 background-color: #ffffff;;
 text-align: center;
 }
+
+.container{
+  padding: 0; 15px;
+  max-width: 1170px;
+  background-color: #ffffff;;
+  text-align: center;
+  }
