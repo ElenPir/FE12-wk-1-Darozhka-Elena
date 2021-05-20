@@ -78,3 +78,13 @@
     line-height: 3;
     margin-top: 2px;
 }
+
+.dark-item:hover {
+    color: rgb(7, 7, 7); /* Цвет текста активного пункта */
+    background-color: #d16812; /* Цвет фона активного пункта */
+   }
+
+.price-row-item-white:hover {
+    color: rgb(250, 248, 248); /* Цвет текста активного пункта */
+    background-color: #2c0586; /* Цвет фона активного пункта */
+   }
