@@ -32,35 +32,37 @@
   margin-bottom: 25px;
 }
 
+.axure-title::after {
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: #FFFFFF;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;}
+
 .axure-text{
   font-size: 14px;
   font-weight: 400;
   color: rgb(253, 251, 251);
   text-align: center;
+  margin-bottom: 50px;
 }
 
-.button-link {
-	color: #fff;
+.axure-button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
   margin: auto;
-	user-select: none; /* Убираем текстовое выделение */
-	text-decoration: none;	/* Убираем подчеркивание */
-	outline: none; /* Убираем контур вокруг ссылки */
-	background-color: #a56134; /* Цвет фона */
-	padding: 1em 2em; /* Отступ от текста до рамки */
-	}
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 50px;}
 
-  /*
-  .button-link:active {
-	background-color: #3d20bb; /* Цвет кнопки при нажатии */
-	}*/
-
-	.button-link:hover {
-	background-color: #2aca38; /* Цвет кнопки при наведении курсора */
+.axure-button:hover {
+    border: 1px solid rgba(143, 38, 111, 0.7);
+    color: black;
+  	background-color: rgba(143, 38, 111, 0.7); 
+}
   
-	}
-
-  .button{
-    position: relative;
-    text-align: center;
-    margin-top: 50px;
-  }
