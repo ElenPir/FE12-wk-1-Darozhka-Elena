@@ -3,6 +3,10 @@
   padding: 15px 0 15px;
 }
 
+.social{
+  padding: 0 50px;
+}
+
 .social-text-part{
 max-width: 400px;
 }

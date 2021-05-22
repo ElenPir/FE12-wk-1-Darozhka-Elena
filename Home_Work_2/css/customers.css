@@ -2,28 +2,9 @@
   background-color: #f8f6f6;
 }
 
-.customers-title {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.customers-title::after {
-  content: '';
-  width: 70px;
-  height: 2px;
-  background-color: rgb(143,38,111);
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;}
-
 .customers-text{
   color: rgba(134, 135, 139, 1);
-  width: 400;
-  font-size: 14px;
   margin: auto;
-  
-  text-align: center;
 }
 /*до сюда не трогать*/
 
@@ -49,8 +30,6 @@
 }
 
 .customers-row-item-text {
-  font-weight: 400;
-  font-size: 14px;
   text-align: center;
   color: #86878B;
   background-color:rgba(143,38,111,0.4);
@@ -66,8 +45,6 @@
   flex-direction: row;
   justify-content:space-around;
   flex-wrap: wrap;
-
-  
 }
 
 .avatar {
@@ -79,22 +56,18 @@
   margin-top:auto;
 }
 
-.customers-user {  
-}
-
 .username{
   font-size: 20px;
-  font-weight:600;
+  font-weight:700;
   text-align: center;
   color: #333333;
 }
 
 .userposition{
-  font-size: 14px;
-  font-weight: normal;
   text-align: center;
   color: #86878B;
   margin-top: 20px;
+  font-size: 14px;
 }
 
 .customers-row-item-text::after {

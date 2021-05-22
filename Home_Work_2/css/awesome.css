@@ -2,28 +2,9 @@
   background-color: #ffffff;
 }
 
-.awesome-title {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.awesome-title::after {
-  content: '';
-  width: 70px;
-  height: 2px;
-  background-color: rgb(143, 38, 111);
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;}
-
 .awesome-text{
   color: rgba(134, 135, 139, 1);
-  width: 400;
-  font-size: 14px;
   margin: auto;
-  
-  text-align: center;
 }
 
 .awesome-row {
@@ -45,9 +26,11 @@
   align-items: center;
   width: 70px;
   height: 70px;
-  border: 1px solid rgb(143, 38, 111);
+  border: 2px solid rgb(143, 38, 111);
   border-radius: 50%;
   margin: 0 auto 30px;
+  font-size: 35px;
+  color: rgba(143, 38, 111, 1);
 }
 
 .awesome-row-item-title {
@@ -61,7 +44,6 @@
 .awesome-row-item-text {
   font-weight: 400;
   font-size: 14px;
-  
   text-align: center;
   color: rgba(0, 0, 0, 1);
 }

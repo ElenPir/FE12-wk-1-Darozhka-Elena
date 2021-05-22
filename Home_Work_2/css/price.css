@@ -2,27 +2,9 @@
     background-color: #E5E5E5;
 }
   
-.price-title {
-    text-align: center;
-    margin-bottom: 25px;
-}
-  
-.price-title::after {
-    content: '';
-    width: 70px;
-    height: 2px;
-    background-color: rgb(143,38,111);
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;}
-  
 .price-text{
     color: rgba(134, 135, 139, 1);
-    width: 400;
-    font-size: 14px;
     margin: auto;
-    text-align: center;
 }
 
 .price-row {
@@ -31,7 +13,6 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .price-row-list {
@@ -40,8 +21,6 @@
 }
 
 .price-row-list-item {
-    font-weight: 400;
-    font-size: 14px;
     text-align: center;
     background-color: #FFFFFF;
     color: #86878B;
@@ -50,32 +29,23 @@
 }
 
 .price-row-list-item:first-child {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     background-color: #333333;
     color: #FFFFFF;
-    line-height: 3;
 }
 
 .price-row-list-item:nth-child(2) {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
-    text-align: center;
     background-color: #333333;
     color: #FFFFFF;
-    margin-top: 2px;
-    line-height: 3;
 }
 
 .price-row-list-item:nth-child(3) {
-    font-weight: 400;
-    font-size: 14px;
-    
-    text-align: center;
+    font-weight: 700;
     background-color: #333333;
     color: #FFFFFF;
-    margin-top: 2px;
-    line-height: 3;
 }
 
 .price-row-list-item:hover {
@@ -97,4 +67,3 @@
     color: rgb(7, 7, 7); /* Цвет текста активного пункта */
     background-color: rgba(143,38,111,0.9); /* Цвет фона активного пункта */
 }
-
