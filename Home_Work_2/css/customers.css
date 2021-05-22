@@ -2,6 +2,17 @@
   background-color: #f8f6f6;
 }
 
+.customers-title::after {
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: rgb(143,38,111);
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .customers-text{
   color: rgba(134, 135, 139, 1);
   margin: auto;
@@ -21,11 +32,9 @@
   flex-direction:column;
   justify-content:space-between;
   flex-wrap: wrap;
-
   width: 350px;
   margin: 0 15px 25px 15px;
   padding-bottom: 20px;
-
   position: relative;
 }
 

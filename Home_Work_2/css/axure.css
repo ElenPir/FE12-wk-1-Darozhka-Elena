@@ -28,8 +28,14 @@
 }
 
 .axure-title::after {
-  background-color: #FFFFFF;
-  z-index: 999;
+  content: '';
+  width: 70px;
+  height: 2px;
+  background-color: rgb(253, 251, 251);
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .axure-text{

@@ -1,7 +1,18 @@
 .price-section {
     background-color: #E5E5E5;
 }
-  
+
+.price-title::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: rgb(143,38,111);
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .price-text{
     color: rgba(134, 135, 139, 1);
     margin: auto;
