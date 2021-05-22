@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-menu{
+  vertical-align:center;
+}
+
+.menuu{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-item{
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 20px;
+  width: 100px;
+  text-align: center;
+  color: #86878B;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.menu-item:hover {
+  font-weight: 700;
+  color: rgba(143, 38, 111, 0.7); /* Цвет текста активного пункта */
+  border-bottom: 1px solid rgba(143, 38, 111, 0.7);
+  border-right: 1px solid rgba(143, 38, 111, 0.7);
+}
+
+.header-logo{
+  font-size:30px;
+  display: flex;
+  flex-direction:row;
+}
+
+.logo-white{
+color: #86878B;
+}
+
+.logo-color{
+  color: rgba(143, 38, 111, 1);
+  }

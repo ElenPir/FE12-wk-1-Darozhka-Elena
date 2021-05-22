@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+.fab {
+  font-size: 20px;
+  color: rgba(143, 38, 111, 0.3);
+  margin-left: 25px;
+}
+
+.fab:hover {
+  color: rgba(143, 38, 111, 1);
+}
+
+.footer-text{
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(143, 38, 111, 0.5);
+}

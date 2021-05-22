@@ -2,6 +2,9 @@
 @import url("../css/price.css");
 @import url("../css/axure.css");
 @import url("../css/customers.css");
+@import url("../css/header.css");
+@import url("../css/social.css");
+@import url("../css/footer.css");
 
 * {
   margin: 0;
@@ -18,7 +21,12 @@ html {
 
 section {
   width: 100%;
-  padding: 100px 0 90px;
+  padding: 100px 0 100px;
+}
+
+header {
+  width: 100%;
+  padding:20px 50px;
 }
 
 .container {
@@ -33,6 +41,5 @@ section {
   font-weight: 700;
   font-size: 36px;
   text-transform: uppercase;
-  line-height: 42px;
-  /*color: rgba(33, 33, 33, 1);*/
+  
 }

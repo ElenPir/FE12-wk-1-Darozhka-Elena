@@ -1,0 +1,42 @@
+.social-section {
+  background-color: #F8EFEF;
+  padding: 15px 0 15px;
+}
+
+.social-text-part{
+max-width: 400px;
+}
+
+.social-title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333333;
+  font-size: 20px;
+  width: 700;
+}
+
+.social-text{
+  color: #86878B;
+  width: 400;
+  font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+
+.soc-icon {
+  font-size: 40px;
+  color: rgba(143, 38, 111, 0.5);
+  margin-left: 25px;
+  
+}
+
+.fab:hover {
+  color: rgba(143, 38, 111, 1);
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
