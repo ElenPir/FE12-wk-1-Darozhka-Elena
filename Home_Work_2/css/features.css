@@ -1,0 +1,84 @@
+.features-section{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.features-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(143, 38, 111, 0.5);
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px auto;
+  transition: 0.2s ease;
+  border: 1px solid whitesmoke;
+  text-align: center;
+  
+}
+
+/* skew */
+.scaleskew:hover {
+  transform: skew(10deg, 20deg);
+  background-color: rgba(143, 38, 111, 1);
+  color: black;
+}
+
+/* rotate */
+.rotateblock:hover {
+  transform: rotate(180deg);
+  background-color: rgba(143, 38, 111, 1);
+  color: black;
+}
+
+/* origin */
+.originblock:hover {
+  transform: rotate(-45deg);
+  background-color: rgba(143, 38, 111, 1);
+  color: black;
+}
+
+.features-text-part {
+  max-width: 800px;
+  margin: 0 15px 0 15px;
+}
+
+.features-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.features-text-part-text {
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 1);
+}
+
+.features-button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid rgba(143, 38, 111, 0.5);
+  display: block;
+  color: rgba(143, 38, 111, 0.5);
+  text-align: center;
+  line-height: 50px;
+  margin-top: 100px;
+
+}
+
+.features-button:hover {
+  border: 1px solid rgba(143, 38, 111, 1);
+  color: black;
+  font-weight: 700;
+	background-color: rgba(143, 38, 111, 1); 
+}
