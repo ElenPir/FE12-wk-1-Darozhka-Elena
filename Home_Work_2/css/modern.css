@@ -96,8 +96,8 @@ color: #86878B;
   text-transform: uppercase;
 }
 
-form {
-  width: 370px;
+.modern-form {
+  width: 600px;
   height: 370px;
   position: relative;
   border-radius: 5px;
